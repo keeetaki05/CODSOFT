@@ -1,0 +1,294 @@
+
+
+    body{
+        font-family: "Playfair Display", serif;
+        margin:0;
+        background-color: #e3ccd2;
+        overflow: auto;
+
+    }
+
+    .main{
+        height : 100vh;
+    }
+    
+    
+     
+    .header{
+        background-color: rgb(241, 226, 233);
+        height: 80px;
+        
+        border-radius: 1rem;
+        
+        display : flex;
+        justify-content: center;
+        align-items: center;
+
+        padding  : 10px 20px ;
+        margin : 50px 70px;
+    }
+
+    .header p {
+        font-size: 40px;
+        font-weight: 700;
+        margin : 0 ;
+    }
+
+
+
+    .about{
+        background-color:rgb(241, 226, 233);
+        padding  : 10px 20px ;
+        border-radius: 1rem;
+        height : 300px;
+        margin : 50px 70px;
+    }
+
+    .about h2 {
+        font-size : 28px;
+    }
+
+    .myphoto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;;
+    }
+    .myphoto img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin : 20px 50px;
+    }
+
+    .myphoto p {
+        max-width: 600px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+
+    .about-text h2 {
+    text-align: center;
+    }
+
+
+    .skills{
+        background-color: rgb(241, 226, 233);
+        padding  : 10px 20px ;
+        border-radius: 1rem;
+        margin : 50px 70px;
+        justify-items: center;
+    }
+
+    .skills h2{
+        font-size : 28px;
+        
+    }
+
+    .li-items {
+        display : flex;
+        gap :80px;
+        margin : 7px 7px ;
+        
+    }
+
+
+
+    .project{
+        background-color: rgb(241, 226, 233);
+        padding  : 10px 20px ;
+        margin : 50px 70px;
+        border-radius: 1rem;
+        justify-items: center;
+        
+    }
+
+    .project h2{
+        font-size : 28px;
+    }
+
+    .resume-section{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 40pxS;
+    }
+
+
+    .download-btn {
+    display: inline-block;
+    background: rgb(235, 195, 214);
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    .download-btn:hover,
+    .download-btn:focus {
+    transform: translateY(-1px);
+    outline: none;
+    }
+
+
+    .footer{
+        display : flex;
+        justify-content: center;
+        gap:30px;
+        background-color: rgb(241, 226, 233);
+        padding  : 10px 20px ;
+        margin : 50px 70px;
+        border-radius: 1rem;
+    }
+
+
+@media (max-width: 600px) {
+
+    body {
+        font-size: 14px;
+        padding: 10px;
+        overflow-x: hidden;
+    }
+
+    .header {
+        flex-direction: column;
+        margin: 20px;
+        height: auto;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .header p {
+        font-size: 28px;
+    }
+
+    .about, .skills, .project {
+        margin: 20px 10px;
+        padding: 15px;
+        height: auto;
+        border-radius: 0.8rem;
+    }
+
+    .about h2, .skills h2 {
+        font-size: 22px;
+    }
+
+    .myphoto {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .myphoto img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+
+    .about-content {
+        text-align: center;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .li-items {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .li-items li {
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    .project p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+        margin: 20px 10px;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .footer a,
+    .footer p {
+        font-size: 14px;
+    }
+}
+
+
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    body {
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .header {
+        flex-direction: column;
+        height: auto;
+        margin: 30px;
+        text-align: center;
+    }
+
+    .about, .skills, .project {
+        width: 90%;
+        margin: 30px auto;
+        height: auto;
+        padding: 25px;
+    }
+
+    .myphoto img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .li-items {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+     .footer {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin: 30px auto;
+        width: 90%;
+        padding: 20px 25px;
+    }
+
+    .footer p,
+    .footer a {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
